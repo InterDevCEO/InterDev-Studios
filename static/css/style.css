@@ -29,7 +29,7 @@ body {
 }
 
 .logo {
-    font-family: Arial, sans-serif;
+    font-family: 'Protest Riot', sans-serif;
     font-size: 22px;
     color: #e0e0e0;
     margin: 0;
@@ -46,12 +46,13 @@ body {
 .logo:hover {
     transform: scale(1.05);
     text-shadow: 0 4px 8px rgba(0,0,0,0.7);
+    filter: drop-shadow(0 2px 4px rgba(220,20,60,0.4));
 }
 
 .nav1 {
     color: #e0e0e0;
     font-size: 15px;
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 8px 16px;
@@ -73,7 +74,7 @@ body {
 .nav2 {
     color: #e0e0e0;
     font-size: 15px;
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 8px 16px;
@@ -95,7 +96,7 @@ body {
 .nav3 {
     color: #e0e0e0;
     font-size: 15px;
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 8px 16px;
@@ -117,7 +118,7 @@ body {
 .nav4 {
     color: #e0e0e0;
     font-size: 15px;
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 8px 16px;
@@ -161,7 +162,7 @@ body {
 }
 
 .footer-section h3 {
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 22px;
     margin-bottom: 20px;
     color: #e0e0e0;
@@ -297,7 +298,7 @@ body {
 }
 
 .eslogan {
-    font-family: Arial, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 22px;
     font-weight: 400;
     color: #e0e0e0;
@@ -325,7 +326,7 @@ body {
 }
 
 .section-title {
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 36px;
     font-weight: 600;
     color: #e0e0e0;
@@ -387,7 +388,7 @@ body {
 }
 
 .feature-card h3 {
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 24px;
     color: #e0e0e0;
     margin-bottom: 15px;
@@ -412,7 +413,7 @@ body {
 }
 
 .about-text h2 {
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 28px;
     color: #e0e0e0;
     margin-bottom: 15px;
@@ -446,7 +447,7 @@ body {
 }
 
 .stat-item h3 {
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 36px;
     color: #e0e0e0;
     margin-bottom: 5px;
@@ -492,7 +493,7 @@ body {
 }
 
 .service-card h3 {
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 22px;
     color: #e0e0e0;
     margin-bottom: 15px;
@@ -505,7 +506,7 @@ body {
 }
 
 .price {
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #e0e0e0;
@@ -545,7 +546,7 @@ body {
 }
 
 .faq-item h3 {
-    font-family: Arial, sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-size: 20px;
     color: #e0e0e0;
     margin-bottom: 10px;
