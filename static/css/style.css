@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +29,7 @@ body {
 }
 
 .logo {
-    font-family: 'Protest Riot', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 22px;
     color: #e0e0e0;
     margin: 0;
@@ -51,13 +46,12 @@ body {
 .logo:hover {
     transform: scale(1.05);
     text-shadow: 0 4px 8px rgba(0,0,0,0.7);
-    filter: drop-shadow(0 2px 4px rgba(220,20,60,0.4));
 }
 
 .nav1 {
     color: #e0e0e0;
     font-size: 15px;
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 8px 16px;
@@ -79,7 +73,7 @@ body {
 .nav2 {
     color: #e0e0e0;
     font-size: 15px;
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 8px 16px;
@@ -101,7 +95,7 @@ body {
 .nav3 {
     color: #e0e0e0;
     font-size: 15px;
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 8px 16px;
@@ -123,7 +117,7 @@ body {
 .nav4 {
     color: #e0e0e0;
     font-size: 15px;
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 8px 16px;
@@ -167,7 +161,7 @@ body {
 }
 
 .footer-section h3 {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 22px;
     margin-bottom: 20px;
     color: #e0e0e0;
@@ -264,24 +258,6 @@ body {
     overflow: hidden;
 }
 
-.hero-box:before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: linear-gradient(45deg, #DC143C, #660000);
-    border-radius: 50px;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.hero-box:hover:before {
-    opacity: 1;
-}
-
 .hero-box:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(220,20,60,0.3);
@@ -321,7 +297,7 @@ body {
 }
 
 .eslogan {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: Arial, sans-serif;
     font-size: 22px;
     font-weight: 400;
     color: #e0e0e0;
@@ -349,7 +325,7 @@ body {
 }
 
 .section-title {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 36px;
     font-weight: 600;
     color: #e0e0e0;
@@ -404,17 +380,6 @@ body {
     position: relative;
 }
 
-.feature-card:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #DC143C, #660000);
-    border-radius: 15px 15px 0 0;
-}
-
 .feature-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(220,20,60,0.3);
@@ -422,7 +387,7 @@ body {
 }
 
 .feature-card h3 {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 24px;
     color: #e0e0e0;
     margin-bottom: 15px;
@@ -447,7 +412,7 @@ body {
 }
 
 .about-text h2 {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 28px;
     color: #e0e0e0;
     margin-bottom: 15px;
@@ -480,19 +445,8 @@ body {
     position: relative;
 }
 
-.stat-item:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, #DC143C, #660000);
-    border-radius: 10px 10px 0 0;
-}
-
 .stat-item h3 {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 36px;
     color: #e0e0e0;
     margin-bottom: 5px;
@@ -531,17 +485,6 @@ body {
     position: relative;
 }
 
-.service-card:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #DC143C, #660000);
-    border-radius: 15px 15px 0 0;
-}
-
 .service-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(220,20,60,0.3);
@@ -549,7 +492,7 @@ body {
 }
 
 .service-card h3 {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 22px;
     color: #e0e0e0;
     margin-bottom: 15px;
@@ -562,7 +505,7 @@ body {
 }
 
 .price {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #e0e0e0;
@@ -595,17 +538,6 @@ body {
     position: relative;
 }
 
-.faq-item:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, #DC143C, #660000);
-    border-radius: 10px 10px 0 0;
-}
-
 .faq-item:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(220,20,60,0.3);
@@ -613,7 +545,7 @@ body {
 }
 
 .faq-item h3 {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     color: #e0e0e0;
     margin-bottom: 10px;
