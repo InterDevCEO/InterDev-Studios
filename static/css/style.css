@@ -567,6 +567,36 @@ body {
     display: inline-block;
     border: 1px solid #DC143C;
     box-shadow: 0 2px 4px rgba(220,20,60,0.3);
+    margin-bottom: 15px;
+}
+
+.contact-btn {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #e0e0e0;
+    background: linear-gradient(45deg, #660000, #DC143C);
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: 2px solid #DC143C;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    margin-top: 10px;
+}
+
+.contact-btn:hover {
+    background: linear-gradient(45deg, #DC143C, #660000);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(220,20,60,0.4);
+    border: 2px solid #DC143C;
+}
+
+.contact-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(220,20,60,0.3);
 }
 
 .faq-content {
